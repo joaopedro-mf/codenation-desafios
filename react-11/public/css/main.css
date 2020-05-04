@@ -1,0 +1,294 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px 25px 50px;
+}
+
+.navbar-menu ul,
+.navbar-user {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar-logo {
+  cursor: pointer;
+}
+
+a:hover {
+  color: #e4bb23;
+}
+
+.navbar-menu li,
+.name-user {
+  margin: 0px 50px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.image-user {
+  border-radius: 50%;
+  height: 75px;
+  margin: 0px 15px;
+}
+
+.initial-page {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("../img/capa-madmax2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60em;
+  background-attachment: fixed;
+}
+
+header {
+  justify-content: center;
+  align-items: bottom;
+  padding: 10% 10%;
+  height: 100%;
+}
+
+.head-title {
+  color: #ffffff;
+}
+
+.head-title h1 {
+  font-size: 7em;
+  margin: 0px;
+}
+
+.head-title ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.head-title li {
+  padding: 25px;
+  font-size: 1.3em;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.head-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 60px;
+  background-color: #e4bb23;
+  color: black;
+  border-radius: 40px;
+  font-size: 1.3em;
+  margin: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.head-button i {
+  margin-left: auto;
+  padding-left: 20px;
+}
+
+.head-button:hover {
+  filter: brightness(0.8);
+}
+
+.head-footer {
+  list-style: none;
+  color: #ffffff;
+  margin: 0;
+  font-size: 1.3em;
+  padding-top: 20px;
+}
+
+.head-footer li:last-child {
+  padding-top: 20px;
+  color: #e4bb23;
+}
+
+.main-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  color: #e4bb23;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.main-menu li {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.main-menu li:hover {
+  border-bottom: 1px solid #e4bb23;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 5%;
+  background-color: #f2f2f2;
+}
+
+.list-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 20%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 0px 25px 30px 0px;
+}
+
+figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+.picture-description {
+  color: transparent;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover .picture-description {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card:hover figure h1 {
+  color: #e4bb23;
+}
+
+.card:hover figure i {
+  color: #ffffff;
+}
+
+.card:hover figure i:hover {
+  color: #e4bb23;
+}
+
+.card-header {
+  width: 100%;
+  background-size: contain;
+  border: 0px 8px 8px 0px;
+}
+
+.card-body {
+  margin-left: 5px;
+  padding: 0px 15px 15px;
+}
+
+.card-body-title h2 {
+  font-size: 1.7em;
+  margin: 0;
+  padding-top: 5%;
+}
+
+.card-body ul {
+  display: flex;
+  font-size: 1.3em;
+  color: #e4bb23;
+  list-style: none;
+  margin: 0;
+  padding: 5% 0;
+}
+
+.card-body li {
+  padding-right: 3%;
+  cursor: pointer;
+}
+
+.card-body li:hover {
+  text-decoration: underline;
+}
+
+.card-body-footer {
+  display: flex;
+}
+
+.card-body-footer i {
+  color: #bababa;
+}
+
+.card-body-footer i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.card-body-footer h2 {
+  font-size: 2em;
+  margin: 0;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+section {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #ffffff;
+  display: flex;
+  margin: 20px 175px;
+}
+
+.footer-socialmedia i {
+  color: #bababa;
+  padding: 0px 20px;
+}
+
+footer div:last-child {
+  margin-left: auto;
+}
+
+i.fa {
+  cursor: pointer;
+}
+
+i.fa.fa-twitter:hover {
+  color: #55acee;
+}
+
+i.fa.fa-facebook-official:hover {
+  color: #3b5998;
+}
+
+i.fa.fa-instagram:hover {
+  color: #e95950;
+}

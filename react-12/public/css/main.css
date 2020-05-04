@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+button {
+  height: 42px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px rgb(0, 0, 0, 0.1) solid;
+  background-color: white;
+}
+
+.navbar__functions {
+  width: 728px;
+  display: flex;
+  padding: 5px 15px;
+}
+
+.navbar__logo {
+  display: inline-block;
+  height: 42px;
+  margin: 0;
+}
+
+.navbar__logo img {
+  height: 100%;
+}
+
+.navbar__sendIcon {
+  margin-left: auto;
+}
+
+.stories {
+  display: flex;
+  background-color: #fafafa;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.stories__list {
+  display: flex;
+  width: 728px;
+  height: 60px;
+}
+
+.stories__user {
+  height: 78px;
+  width: 78px;
+  margin: 0px 5px;
+  padding: 0;
+}
+
+.stories__userimage {
+  margin: 0;
+  width: 72px;
+  height: 72px;
+}
+
+.stories__userimage img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  margin: 2px 2px;
+}
+
+.stories__user--notification {
+  height: 78px;
+  width: 78px;
+  padding: 0px 10px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 10%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  padding: 0;
+  margin: 0px 5px;
+}
+
+.stories__userimage--notification {
+  margin: 0 3px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.feed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.feed__listcards {
+  display: flex;
+  width: 728px;
+  flex-direction: column;
+}
+
+.feed__card {
+  display: flex;
+  flex-direction: column;
+  border: 1px rgb(0, 0, 0, 0.1) solid;
+  border-radius: 8px;
+  margin: 10px 10px;
+}
+
+.feed__header {
+  display: flex;
+  border-bottom: 1px rgb(0, 0, 0, 0.1) solid;
+  padding: 5px 10px;
+}
+
+.feed__user {
+  display: flex;
+  justify-content: center;
+}
+
+.feed__userimage {
+  margin: 0;
+}
+
+.feed__userimage img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.feed__username {
+  padding: 15px 10px;
+  font-weight: bold;
+  font-size: 0.7em;
+}
+
+.feed__options {
+  margin-left: auto;
+}
+
+.feed__cardpicture {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.feed__cardpicture img {
+  width: 100%;
+  height: auto;
+}
+
+.feed__cardoptions {
+  display: flex;
+  padding: 5px;
+}
+
+.feed__cardoptions button {
+  padding-right: 15px;
+}
+
+.feed__mark {
+  margin-left: auto;
+  padding-right: 0px;
+}
+
+.feed__cardfooter {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+}
+
+.feed__userLike {
+  margin: 0;
+}
+
+.feed__userLike img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.feed__cardDescription {
+  display: inline;
+  padding: 8px;
+  font-size: 0.75rem;
+}
+
+.feed__cardDescription--bold {
+  padding: 0;
+  font-weight: bold;
+}
