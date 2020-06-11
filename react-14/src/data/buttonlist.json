@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "name",
+    "Value": "Nome"
+  },
+  {
+    "Name": "country",
+    "Value": "País"
+  },
+  {
+    "Name": "company",
+    "Value": "Empresa"
+  },
+  {
+    "Name": "department",
+    "Value": "Departamento"
+  },
+  {
+    "Name": "admissionDate",
+    "Value": "Data de Admissão"
+  }
+]
